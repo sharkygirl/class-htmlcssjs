@@ -8,6 +8,10 @@ body {
 	box-sizing: border-box;
 }
 
+h1 {
+	margin-bottom: 15px;
+}
+
 p {
 	background-color: #A1FF0D;
 	border: 1px solid black;
@@ -15,6 +19,11 @@ p {
 	height: 150px;
 	margin-right: auto;
 	margin-left: auto;
+	color: white;
+}
+
+.row {
+	width: 100%;
 }
 
 /***************** DESKTOP DEVICES *******************/
