@@ -28,6 +28,13 @@ p {
 	margin-left: auto;
 }
 
+.p2 {
+	background-color: white;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
 .row {
 	width: 100%;
 }
