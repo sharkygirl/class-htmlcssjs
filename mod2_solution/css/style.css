@@ -12,9 +12,16 @@ h1 {
 	margin-bottom: 15px;
 }
 
+div {
+	position: relative;
+}
+
 p {
-	background-color: #A1FF0D;
 	border: 1px solid black;
+}
+
+.p1 {
+	background-color: #A1FF0D;
 	width: 90%;
 	height: 150px;
 	margin-right: auto;
