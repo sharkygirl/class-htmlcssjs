@@ -27,49 +27,6 @@ body {
 	line-height: .75;
 }
 
-.page-title {
-	text-align: center;
-}
-
-.menu-section {
-	background-color: #E6E6FA;
-	margin-left: 10px;
-	padding-top: 20px;
-	padding-left: 8px;
-}
-
-.menu-section h4 {
-	text-align: center;
-}
-
-/*
-.navbar-brand h1{
-    position: absolute;
-    width: 100%;
-    left: 0;
-    text-align: center;
-    margin: auto;
-}
-*/
-
-
-/* Medium and Large Devices */
-@media (min-width: 992px) {
-
-}
-
-/* Small Devices */
-@media (min-width: 768px and (max-width: 991px)) {
-	.navbar-toggle {
-		display: none;
-	}
-}
-
-/* Extra Small Devices */
-@media (max-width: 767px) {
-
-}
-
 .navbar-toggle {
 	position: relative;
 	float: right;
@@ -86,3 +43,40 @@ body {
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
 	border: 1px solid #FFFFFF;
 }
+
+.menu-section {
+	background-color: #E6E6FA;
+	margin-left: 10px;
+	padding-top: 20px;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+
+/* Medium and Large Devices */
+@media (min-width: 992px) {
+	.menu-section {
+		height: 1000px;
+	}
+}
+
+/* Small Devices */
+@media (min-width: 768px and (max-width: 991px)) {
+	.navbar-toggle {
+		display: none;
+	}
+
+	.menu-section {
+		height: 1000px;
+	}
+}
+
+/* Extra Small Devices */
+@media (max-width: 767px) {
+	#collapsable-nav a {
+		text-align: center;
+		font-size: 1.2em;
+		color: #FFFFFF;
+	}
+}
+
