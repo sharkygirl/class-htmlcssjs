@@ -6,7 +6,7 @@ body {
 
 /** Header **/
 #header-nav {
-	background-color: #E6E6FA;
+	background-color: #8B89E8;
 	border-radius: 0;
 	border: 0;
 	padding-bottom: 10px;
@@ -20,13 +20,25 @@ body {
 
 .navbar-brand h1 {
 	font-size: 1.5em;
+	color: #FFFFFF;
 	text-transform: uppercase;
 	margin-top: 0;
 	margin-bottom: 0;
 	line-height: .75;
 }
 
-.title {
+.page-title {
+	text-align: center;
+}
+
+.menu-section {
+	background-color: #E6E6FA;
+	margin-left: 10px;
+	padding-top: 20px;
+	padding-left: 8px;
+}
+
+.menu-section h4 {
 	text-align: center;
 }
 
@@ -69,4 +81,8 @@ body {
 	background-image: none;
 	border: 1px solid transparent;
 	border-radius: 4px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #FFFFFF;
 }
