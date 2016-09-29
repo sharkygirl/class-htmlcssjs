@@ -1,7 +1,7 @@
 body {
 	background-color: #FFFFF0;
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 16px%
+	font-size: 14px;
 }
 
 /** Header **/
@@ -46,18 +46,22 @@ body {
 
 .menu-section {
 	background-color: #E6E6FA;
-	margin-left: 10px;
 	padding-top: 20px;
 	padding-left: 8px;
 	padding-right: 8px;
+	height: 1000px;
 }
 
+.dropdown-menu > li{
+	a:hover {
+		background-color: red;
+		background-image: none;
+	}
+}
 
 /* Medium and Large Devices */
 @media (min-width: 992px) {
-	.menu-section {
-		height: 1000px;
-	}
+
 }
 
 /* Small Devices */
@@ -65,14 +69,15 @@ body {
 	.navbar-toggle {
 		display: none;
 	}
-
-	.menu-section {
-		height: 1000px;
-	}
 }
 
 /* Extra Small Devices */
 @media (max-width: 767px) {
+	.menu-section {
+		height: auto;
+		padding-bottom: 10px;
+	}
+
 	#collapsable-nav a {
 		text-align: center;
 		font-size: 1.2em;
